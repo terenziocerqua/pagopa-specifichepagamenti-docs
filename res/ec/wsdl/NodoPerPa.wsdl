@@ -142,34 +142,24 @@
 	<wsdl:portType name="PagamentiTelematiciRPT">
 		<wsdl:operation name="nodoChiediStatoRPT">
 			<wsdl:documentation> descrizione dell'operazione  </wsdl:documentation>
-			<wsdl:input name="nodoChiediStatoRPT" message="tns:nodoChiediStatoRPT" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoChiediStatoRPTRichiesta">
-			</wsdl:input>
-			<wsdl:output name="nodoChiediStatoRPTResponse" message="tns:nodoChiediStatoRPTResponse" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoChiediStatoRPTRisposta">
-			</wsdl:output>
+			<wsdl:input name="nodoChiediStatoRPT" message="tns:nodoChiediStatoRPT" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoChiediStatoRPTRichiesta" />
+			<wsdl:output name="nodoChiediStatoRPTResponse" message="tns:nodoChiediStatoRPTResponse" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoChiediStatoRPTRisposta" />
 		</wsdl:operation>
 		<wsdl:operation name="nodoChiediListaPendentiRPT">
-			<wsdl:input name="nodoChiediListaPendentiRPT" message="tns:nodoChiediListaPendentiRPT" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoChiediListaPendentiRPT">
-			</wsdl:input>
-			<wsdl:output name="nodoChiediListaPendentiRPTResponse" message="tns:nodoChiediListaPendentiRPTResponse" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoChiediListaPendentiRPTRisposta">
-			</wsdl:output>
+			<wsdl:input name="nodoChiediListaPendentiRPT" message="tns:nodoChiediListaPendentiRPT" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoChiediListaPendentiRPT" />
+			<wsdl:output name="nodoChiediListaPendentiRPTResponse" message="tns:nodoChiediListaPendentiRPTResponse" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoChiediListaPendentiRPTRisposta" />
 		</wsdl:operation>
 		<wsdl:operation name="nodoInviaRPT">
-			<wsdl:input name="nodoInviaRPT" message="tns:nodoInviaRPT" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoInviaRPTRichiesta">
-			</wsdl:input>
-			<wsdl:output name="nodoInviaRPTResponse" message="tns:nodoInviaRPTResponse" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoInviaRPTRisposta">
-			</wsdl:output>
+			<wsdl:input name="nodoInviaRPT" message="tns:nodoInviaRPT" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoInviaRPTRichiesta" />
+			<wsdl:output name="nodoInviaRPTResponse" message="tns:nodoInviaRPTResponse" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoInviaRPTRisposta" />
 		</wsdl:operation>
 		<wsdl:operation name="nodoInviaCarrelloRPT">
-			<wsdl:input name="nodoInviaCarrelloRPT" message="tns:nodoInviaCarrelloRPT" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoInviaCarrelloRPTRichiesta">
-			</wsdl:input>
-			<wsdl:output name="nodoInviaCarrelloRPTResponse" message="tns:nodoInviaCarrelloRPTResponse" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoInviaCarrelloRPTRisposta">
-			</wsdl:output>
+			<wsdl:input name="nodoInviaCarrelloRPT" message="tns:nodoInviaCarrelloRPT" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoInviaCarrelloRPTRichiesta" />
+			<wsdl:output name="nodoInviaCarrelloRPTResponse" message="tns:nodoInviaCarrelloRPTResponse" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoInviaCarrelloRPTRisposta" />
 		</wsdl:operation>
 		<wsdl:operation name="nodoChiediCopiaRT">
-			<wsdl:input name="nodoChiediCopiaRT" message="tns:nodoChiediCopiaRT" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoChiediCopiaRTRichiesta">
-			</wsdl:input>
-			<wsdl:output name="nodoChiediCopiaRTResponse" message="tns:nodoChiediCopiaRTResponse" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoChiediCopiaRTRisposta">
-			</wsdl:output>
+			<wsdl:input name="nodoChiediCopiaRT" message="tns:nodoChiediCopiaRT" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoChiediCopiaRTRichiesta" />
+			<wsdl:output name="nodoChiediCopiaRTResponse" message="tns:nodoChiediCopiaRTResponse" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoChiediCopiaRTRisposta" />
 		</wsdl:operation>
 		<wsdl:operation name="nodoChiediInformativaPSP">
 			<wsdl:input name="nodoChiediInformativaPSP" message="tns:nodoChiediInformativaPSP" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoChiediInformativaPSPRichiesta" />
@@ -204,10 +194,8 @@
 			<wsdl:output name="nodoInviaRispostaRevocaResponse" message="tns:nodoInviaRispostaRevocaResponse" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoInviaRispostaRevocaRisposta" />
 		</wsdl:operation>
 		<wsdl:operation name="nodoChiediSceltaWISP">
-			<wsdl:input name="nodoChiediSceltaWISP" message="tns:nodoChiediSceltaWISP" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoChiediSceltaWISPRichiesta" >
-			</wsdl:input>
-			<wsdl:output name="nodoChiediSceltaWISPResponse" message="tns:nodoChiediSceltaWISPResponse" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoChiediSceltaWISPRisposta" >
-			</wsdl:output>
+			<wsdl:input name="nodoChiediSceltaWISP" message="tns:nodoChiediSceltaWISP" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoChiediSceltaWISPRichiesta" />
+			<wsdl:output name="nodoChiediSceltaWISPResponse" message="tns:nodoChiediSceltaWISPResponse" wsam:Action="http://ws.pagamenti.telematici.gov/PPT/nodoChiediSceltaWISPRisposta" />
 		</wsdl:operation>
 	</wsdl:portType>
 
