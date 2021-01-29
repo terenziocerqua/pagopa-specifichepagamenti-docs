@@ -17,7 +17,7 @@ MyBank compare come un unico strumento di pagamento all’interno della componen
 	* `pspInviaCarrelloRPT` con specificato all’interno del parametro `parametriProfiloPagamento` il campo `ValidationServiceID` con il valore associato alla selezione della Banca Buyer da parte dell’utente.
 	* redirect verso il servizio web esposto dal servizio MyBank della banca Seller selezionata specificando all’interno dei parametri del canale. Durante la redirect viene utilizzato il medesimo `parametriProfiloPagamento` inviato nella primitiva `pspInviaCarrelloRPT`.
 6. Il servizio web esposto dalla Banca Seller deve elaborare i dati ricevuti ed inoltrare automaticamente il Browser dell’utente verso la Banca Buyer istruendo il pagamento MyBank, dove l’utente segue tutti i passi necessari per poter autorizzare il pagamento.
-7. Concluso il pagamento, la Banca Buyer effettua un redirect sul portale della Banca Seller la quale, preso nota dell’esito della transazione effettua redirect verso il WISP comunicando l’esito della transazione (OK o KO).
+7. Concluso il pagamento, la Banca Buyer effettua un redirect sul portale della Banca Seller la quale,`[TBD presa nota]` preso nota dell’esito della transazione effettua redirect verso il WISP comunicando l’esito della transazione (OK o KO).
 8. Il WISP mostra una pagina di riepilogo del pagamento avvenuto evidenziandone l’esito.
 9. La Banca Seller provvede, in base all’esito ricevuto, ad emettere una RT verso l’EC.
 10. La Banca Seller provvederà, in base all’esito ricevuto, ad emettere il flusso di rendicontazione entro D+2.
