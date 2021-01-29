@@ -27,7 +27,7 @@ MyBank compare come un unico strumento di pagamento all’interno della componen
 Il servizio di pagamento MyBank, non influisce sul ciclo di riconciliazione del pagamento specificato nelle linee guida pagoPA `[TBD SANP ?]`.
 
 L’introduzione del servizio di pagamento MyBank introduce all’interno del flusso di pagamento un ulteriore soggetto (Banca Buyer) che genera un SCT verso la Banca Seller. I tempi di istruzione e riversamento di tale SCT non devono compromettere la tempistica del normale workflow di riconciliazione di pagoPA. Definito con:
-
+`[L’introduzione del servizio MyBank introduce nel flusso di pagamento un ulteriore soggetto (Banca Buyer) che genera un SCT verso la Banca Seller]`
 * `P`: il pagamento dovuto verso l’EC da parte dell’utente
 * `X`: la commissione pubblicata su pagoPA del servizio di Banca Seller
 * `Y`: la commissione applicata dalla Banca Buyer per l’esecuzione del bonifico (definita negli accordi tra l’utente e la propria banca)
@@ -59,6 +59,7 @@ opzionale per motivi di retrocompatibilità
 ### Response alla pspInviaCarrelloRPT / pspInviaRPT
 
 La response alla primitiva` pspInviaCarrelloRPT`, o `pspInviaRPT`, deve contenere il parametro `parametriPagamentoImmediato` nel formato `idBruciatura=<valore>`. Tale valore deve essere utilizzato al PSP affinché possa correlare la richiesta effettuata dal back-end con la relativa redirect al servizio.
+`[Tale valore deve essere utilizzato dal PSP in modo da poter correlare la richiesta effettuata dal back-end con la relativa redirect al servizio.]`
 
 ```
 <esitoComplessivoOperazione>OK</esitoComplessivoOperazione>
