@@ -301,7 +301,7 @@ Funzioni Ausiliarie per il NodoSPC
   one         
 
   Trigger     Il NodoSPC necessita di verificare lo stato di avanzamento
-              di una RTP o di un
+              di una RTP o di un '[TBD carrello]'
 
   Descrizione Il NodoSPC sottomette la richiesta di ricevere lo stato di
               una RPT o di un carrello di RPT
