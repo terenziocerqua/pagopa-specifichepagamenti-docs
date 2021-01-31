@@ -13,6 +13,7 @@ Le ricevute di tale pagamento saranno consegnate:
 
 * alla stazione dalla quale è partita la richiesta di pagamento
 * a tutte le stazioni degli EC coinvolti e dedite alla ricezione di pagamento per conto terzi (parametro della stazione broadcast)
+'[TBD alle stazioni degli EC coinvolti se direttamente connessi, alle stazioni degli intermediari se uno o più d'uno degli EC coinvolti non sono direttamente connessi]'
 
 **Esempio**
 
