@@ -111,7 +111,7 @@ Pagamento mediante Avviso (scenario principale)
 
 1.  l’Utilizzatore finale presenta un avviso di pagamento presso uno dei
     canali messi a disposizione dal PSP;
-2.  il PSP acquisisce le informazioni contenute dall’avviso di pagamento
+2.  il PSP acquisisce le informazioni contenute '[TBD nell']'dall’avviso di pagamento
     tramite lettura del codice QR-Code (ISO 18004). La lettura del
     QR-Code riporta una stringa composta dalla concatenazione dei
     seguenti campi.
