@@ -429,14 +429,13 @@ risoluzione delle anomalie oppure l’azione di controllo suggerita non
 risultasse risolutiva.
 
 **SCT singolo in assenza di RPT**
-
   ----- ------------------------------------------------------------------
   Pre-c Il PSP ha incassato diversi servizi
   ondiz 
-  ione  
+  ione  '[TDB correggere]'
 
   Descr Nell’elaborare un SCT singolo di riversamento relativamente ad un
-  izion flusso di rendicontazione in assenza di RPT ( codice 9 ), il PSP
+  izion '[TDB correggere]' flusso di rendicontazione in assenza di RPT ( codice 9 ), il PSP
   e     evidenzia la mancanza di il PSP non evidenzia la mancanza della
         RPT.
 
